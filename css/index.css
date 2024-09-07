@@ -1,0 +1,76 @@
+body, html{
+    height: 100%;
+}
+
+
+body{
+    background: url('../images/homepage_image.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    font-family: arial;
+}
+
+.header a{
+    font-size: 20px;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.homepage{
+    width: 100%;
+    max-width: 900px;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+.banner{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bannerHeader h1{
+    font-size: 100px;
+    line-height: 100%;
+    color: #817777;
+}
+
+.bannerHeader p{
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 100%;
+    color: rgb(20, 19, 19);
+    font-weight: bold;
+}
+.bannerTagline{
+    margin-top: 20px;
+    font-size: 30px ;
+    color: rgb(126, 117, 117);
+}
+
+.bannerIcons{
+    margin-top: 50px;
+}
+
+.bannerIcons a{
+    font-size: 25px;
+    margin-left: 40px;
+    padding: 7px 15px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+}
+
+.bannerIcons a:first-child{
+    margin-left: 0px;
+}
+
+.bannerIcons a:hover{
+    color: #fff;
+    font-size: 25px;
+    background: #827fae;
+    transition: .5s all;
+}

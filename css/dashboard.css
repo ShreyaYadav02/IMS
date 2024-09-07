@@ -1,0 +1,192 @@
+#mainContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    width: 20%;
+    background: rgb(58, 56, 56);
+    height: 100vh;
+}
+
+.dashboard_container{
+    width: 80%;
+    background: #f4f6f9;
+}
+
+h3.logo{
+    color: rgb(205, 195, 195);
+    font-size: 80px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.user{
+    text-align: center;
+    position:relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.user img{
+    width: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #a19e9e;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.user span{
+    top: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+}
+
+.menu_list{
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.menu_list li.liMainMenu{
+    /*padding: 15px 0px;*/
+    text-transform: uppercase;
+    list-style-type: none;
+    padding-bottom: 0px;
+}
+
+.menu_list li.liMainMenu a{
+    text-decoration: none;
+    color: #fff;
+    height: 100%;
+    display: block;
+    font-size: 14px;
+    padding: 0px 15px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+    padding-top: 15px;
+}
+
+.menu_list li.liMainMenu a i{
+    font-size: 23px;
+    width: 30px;
+    list-style-type: none;
+}
+
+.menu_list li.menuActive{
+    background: #938a8c;
+    color: #fff;
+}
+.menu_list li:hover{
+    background: #7a676c;
+    color: #fff;
+}
+
+.topNav{
+    background: white;
+    padding: 20px;
+}
+
+.topNav a{
+    color: #848383;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a#logoutBtn{
+    float: right;
+}
+
+.content{
+    padding: 50px 10px 10px 10px;
+}
+
+.main{
+    background: white;
+    max-height: 800px;
+    height: 100%;
+    border: 1px solid #cdcdcd;
+    padding-left: 20px;
+}
+
+.subMenuLink{
+    padding-left: 25px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px;
+    text-transform: none;
+    font-size: 15px !important;
+}
+
+.subMenuLink i{
+    font-size: 16px !important;
+    width: 16px !important;
+}
+
+.subMenus{
+    background: #605357;
+    list-style-type: none;
+    padding: 0px;
+    display: none;
+}
+
+.mainMenuIconArrow{
+    float: right;
+    font-size: 19px;
+    margin-top: 4px;
+}
+
+.subMenuActive{
+    font-weight: bold;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background: #40262c;
+}
+
+.box{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 31px;
+}
+
+.reportType{
+    border: 1px solid #c2c6c2;
+    padding: 10px 24px;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 14px;
+    margin-left: 21px;
+    width: 100%;
+}
+
+.reportType:hover{
+    background: #763a49;
+    color: #fff;
+}
+
+.reportType p{
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.reportExportBtn{
+    padding: 4px 15px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #d85fae;
+    color: white;
+    margin-left: 13px;
+    font-size: 11px;
+    border: 1px solid transparent;
+}
+
+.reportExportBtn:hover{
+    border: 1px solid #bc2596;
+    background: #fff;
+    color: #bc2596;
+}
+
